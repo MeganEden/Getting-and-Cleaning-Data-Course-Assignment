@@ -1,5 +1,6 @@
 # Getting and Cleaning Data Course Assignment
 Objective
+
 The objective of this README file is to explain how my run_analysis.R script meets the requirements of the assignment.
 
 Background 
