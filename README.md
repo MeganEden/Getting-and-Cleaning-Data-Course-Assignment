@@ -30,7 +30,6 @@ After having reviewed the README and features_info files supplied in the zip fil
 
 The files included in the Inertial Signals subfolders look to be raw data upon which the files I've used were built. I believe it's outside the scope of this assignment to verify the values provided in the files.
 
-Files uses are as follows
 Files used are as follows
 1. activity_labels.txt
 2. features.txt
