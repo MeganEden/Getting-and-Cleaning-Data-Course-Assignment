@@ -58,7 +58,7 @@ Comments provided in run_anlysis.R script also provide detail of the manipulatio
 
 Even though the addition of labels to the files wasn't asked for until step 3, I have a preference for adding meaningful descriptions to the data as early as possible. I find it easier to work and problem solve with. So manipulations undertaken were in the following order.
 
-1. As the values in y_test and y_train were in the 1:6 range and there were 6 activities, I concluded the values in y_test and y_train corresponded to these activities. I used this as the key to add a new "activity" column to y_test and y_train. This contained the activity labels (v2 of activity_labels). This meets the requirement of PART 3 OF THE ASSIGNMENT.
+1. As the values in y_test and y_train were in the 1:6 range and there were 6 activities, I concluded the values in y_test and y_train corresponded to these activities. I used this as the key to add a new "activity" column to y_test and y_train. This contained the activity labels (v2 of activity_labels). This meets the requirement of STEP 3 OF THE ASSIGNMENT.
 
 2. "V1" for both data frames were renamed to "act ID"
 
