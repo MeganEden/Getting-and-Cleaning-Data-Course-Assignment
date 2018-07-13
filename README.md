@@ -37,13 +37,19 @@ Files uses are as follows
 2. features.txt
 
 from the test subfolder
+
 3. subject_test.txt
+
 4. X_test.txt
+
 5. y_test.txt
 
 from the train subfolder
+
 6. subject_train.txt
+
 7. X_train.txt
+
 8. y_train.txt
 
 
@@ -63,9 +69,9 @@ Even though the addition of labels to the files wasn't asked for until step 3, I
 
 3. Even though this next manipulation was called for in the assignment, I felt adding a "source" (test or train) column to the final solution would allow grouping by these for analysis purposes. i.e. Instead of having to remember which subjects were part of which group, using this column to group_by would be easier.
 
-4.The number of variables in x_test and x_train were both 561 and the features data frames had 561 rows. I therefore concluded the features column "V2" contained variable names. So the variable names in x_test and x_train were replaced with the features column "V2". 
+  4.The number of variables in x_test and x_train were both 561 and the features data frames had 561 rows. I therefore concluded the  features column "V2" contained variable names. So the variable names in x_test and x_train were replaced with the features column "V2". 
 
-5.In order to merge y_test with x_test and y_train with x_train, I needed a common variable and there wasn't one. Using the assumption outlined above, I created a new column in all 4 files called "ID" and filled it using a sequence from 1 to the length of each data frame. This worked because the length of y_test and x_test were the same and so were y_train and x_train. The resulting data frames were named merge_x_y_test and merge_x_y_train respectively.
+  5.In order to merge y_test with x_test and y_train with x_train, I needed a common variable and there wasn't one. Using the assumption outlined above, I created a new column in all 4 files called "ID" and filled it using a sequence from 1 to the length of each data frame. This worked because the length of y_test and x_test were the same and so were y_train and x_train. The resulting data frames were named merge_x_y_test and merge_x_y_train respectively.
 
 6. A check of the values in subject_test and subject_train showed they were in the range 1:30 collectively. There were no instances where the same value was in both files. I therefore concluded these corresponded to the subjects in the test, so columns V1 in those files were renamed to "subject".
 
