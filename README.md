@@ -54,7 +54,7 @@ from the train subfolder
 Ideally each related file should contain at least 1 common variable. This was not the case with these files. I have therefore assumed that each file is in the exact order to allow a simple 1 to 1 match. i.e. If both files contain the same number of rows, the rows are in the correct order already and it's a simple matter of merging.
 
 # Manipulations
-Comments provided in run_anlysis.R script also provide detail of the manipulations undertaken to produce the 2 outputs.
+Comments provided in run_anlysis.R script also provide detail of the manipulations undertaken to produce the 3 outputs.
 
 Even though the addition of labels to the files wasn't asked for until step 3, I have a preference for adding meaningful descriptions to the data as early as possible. I find it easier to work and problem solve with. So manipulations undertaken were in the following order.
 
